@@ -14,5 +14,6 @@ So what do I get from all this?
   * I get to build out a container registry system for participants to make contributions.
   * I get to build the arena engine the robots talk to.
   * I get to build visualization tools that humans use to observe the contests.
+  * I get to build my own murder-bots!
 
 Really it's all just an excuse for me to explore what ever technologies I want to and there are endless possibilities.
