@@ -10,7 +10,7 @@ My goal is to build a game site were users can submit robots via docker containe
 
 So what do I get from all this?  
   * I get to build out a real website with all the associated tooling.
-  * I get to stand up and manage a kubernetes cluster that's hardened to run untrusted containers.
+  * I get to stand up a kubernetes cluster that's hardened to run untrusted containers.
   * I get to build out a container registry system for participants to make contributions.
   * I get to build the arena engine the robots talk to.
   * I get to build visualization tools that humans use to observe the contests.
