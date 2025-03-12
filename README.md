@@ -1,6 +1,6 @@
-# murder-bot
+# murderkillbot
 
-A personal project to create an ongoing king of the hill contest where murder-bots fight to the death running code you supply.
+A personal project to create an ongoing king of the hill contest where murderkillbots fight to the death running code you supply.
 
 This is at least partially inspired by an old game called `C++Robots` but the project is really just an excuse for me to experiment with interesting career relevant technologies.
 
@@ -14,6 +14,6 @@ So what do I get from all this?
   * I get to build out a container registry system for participants to make contributions.
   * I get to build the arena engine the robots talk to.
   * I get to build visualization tools that humans use to observe the contests.
-  * I get to build my own murder-bots!
+  * I get to build my own murderkillbots!
 
 Really it's all just an excuse for me to explore what ever technologies I want to and there are endless possibilities.
