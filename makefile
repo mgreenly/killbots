@@ -1,18 +1,28 @@
-.PHONY: build
-build:
-	mkdir -p bin
-	go build -C cmd/arena -o ../../bin/arena main.go
-	go build -C cmd/deathbot -o ../../bin/deathbot main.go
+default: build
 
-.PHONY: run
-run:
-	@clear
-	@./bin/arena
+.PHONY: build 
+build:
+	$(MAKE) -C cmd/arena build
+	$(MAKE) -C cmd/deathbot build
+
+.PHONY: test
+test:
+	$(MAKE) -C core test
 
 .PHONY: fmt
 fmt:
-	go fmt ./...
+	$(MAKE) -C core fmt
+	$(MAKE) -C cmd/arena fmt
+	$(MAKE) -C cmd/deathbot fmt
 
-.PHONY: clean
-clean:
-	rm -rf bin
+.PHONY: core
+core:
+	$(MAKE) -C core/
+
+.PHONY: arena
+arena:
+	$(MAKE) -C cmd/arena
+
+.PHONY: deathbot
+deathbot:
+	$(MAKE) -C cmd/deathbot
