@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
+	fmt.Println("running arena...")
 	fmt.Println(core.Hello())
 }

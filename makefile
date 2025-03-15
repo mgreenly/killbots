@@ -2,6 +2,7 @@
 build:
 	mkdir -p bin
 	go build -C cmd/arena -o ../../bin/arena main.go
+	go build -C cmd/deathbot -o ../../bin/deathbot main.go
 
 .PHONY: run
 run:
