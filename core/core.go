@@ -1,5 +1,5 @@
 package core
 
-func SayHello() string {
-	return "Hello"
+func Hello() string {
+	return "Hello from the core!"
 }

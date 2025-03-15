@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/mgreenly/killbots/core"
+)
 
 func main() {
-	fmt.Println("hello from the arena!")
+	fmt.Println(core.Hello())
 }
